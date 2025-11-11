@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    font-family: Tahuma;
+    direction: rtl;
+    width: 1485px;
+    height: 700px;
+}
+
+.header{
+    width: 90%;
+    height: 90%;
+    margin: 20 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size:1530px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 2px rgb(146, 146, 146);
+}
+
+.mark{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 50px 450px;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.content{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin: 80px 65px 20px 0px;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 15px 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-bottom-style:dotted;
+    border-left: 2px;
+    border-color:steelblue;
+}
+
+.content h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 5px 0 5px;
+}
+
+.content h3{
+    color: white;
+    text-align: center;
+    margin: 180px 5px 0 5px;
+}
+
+.content h4{
+    color: blue;
+    text-align:center;
+    margin: 0 5px 2px 5px;
+}
+
+.content h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin: 80px 75px 20px 0px;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 15px 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-bottom-style:dotted;
+    border-left: 2px;
+    border-color:steelblue;    
+}
+
+.sidebar h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 5px 0 5px;
+}
+
+.sidebar h3{
+    color: white;
+    text-align: center;
+    margin: 180px 5px 0 5px;
+}
+
+.sidebar h4{
+    color: blue;
+    text-align:center;
+    margin: 0 5px 2px 5px;
+}
+
+.sidebar h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.side{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin: 80px 75px 20px 0px;
+    background-image: url(6.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 15px 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-bottom-style:dotted;
+    border-left: 2px;
+    border-color:steelblue;
+}
+
+.side h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 5px 0 5px;
+}
+
+.side h3{
+    color: white;
+    text-align: center;
+    margin: 180px 5px 0 5px;
+}
+
+.side h4{
+    color: blue;
+    text-align:center;
+    margin: 0 5px 2px 5px;
+}
+
+.side h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.bar{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin: 80px 75px 20px 0px;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 15px 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-bottom-style:dotted;
+    border-left: 2px;
+    border-color:steelblue;
+    
+}
+
+.bar h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 5px 0 5px;
+}
+
+.bar h3{
+    color: white;
+    text-align: center;
+    margin: 180px 5px 0 5px;
+}
+
+.bar h4{
+    color: blue;
+    text-align:center;
+    margin: 0 5px 2px 5px;
+}
+
+.bar h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.tent{
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin: 80px 75px 20px 0px;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 15px 60px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-bottom-style:dotted;
+    border-left: 2px;
+    border-color:steelblue;
+    
+}
+
+.tent h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 5px 0 5px;
+}
+
+.tent h3{
+    color: white;
+    text-align: center;
+    margin: 180px 5px 0 5px;
+}
+
+.tent h4{
+    color: blue;
+    text-align:center;
+    margin: 0 5px 2px 5px;
+}
+
+.tent h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px 5px;
+}
+
+@keyframes shake{
+    0% {transform: translate(0,0);}
+    25% {transform: translate(-5px,0);}
+    50% {transform: translate(5px,0);}
+    75% {transform: translate(-5px,0);}
+    100% {transform: translate(0,0);}
+}
+
+.content:hover{
+    animation: shake 0.5s ease-in-out;
+}
+
+.sidebar:hover{
+    animation: shake 0.5s ease-in-out;
+}
+
+.side:hover{
+    animation: shake 0.5s ease-in-out;
+}
+
+.bar:hover{
+    animation: shake 0.5s ease-in-out;
+}
+
+.tent:hover{
+    animation: shake 0.5s ease-in-out;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="mark">
+        <big><big><big><big><big><big>WEADER FORECAST</big></big></big></big></big></big>
+        </div>
+        <div class="content">
+            <h2>Region</h2>
+            <h3>Daytime 23°</h3><br>
+            <h4>Night 11°</h4><br>
+            &nbsp;<br>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+
+        <div class="sidebar">
+            <h2>Region</h2>
+            <h3>Daytime 23°</h3><br>
+            <h4>Night 11°</h4><br>
+            &nbsp;<br>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+
+        <div class="side">
+            <h2>Region</h2>
+            <h3>Daytime 23°</h3><br>
+            <h4>Night 11°</h4><br>
+            &nbsp;<br>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+
+        <div class="bar">
+            <h2>Region</h2>
+            <h3>Daytime 23°</h3><br>
+            <h4>Night 11°</h4><br>
+            &nbsp;<br>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+
+        <div class="tent">
+            <h2>Region</h2>
+            <h3>Daytime 23°</h3><br>
+            <h4>Night 11°</h4><br>
+            &nbsp;<br>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+    </main>
+</body>
+</html>
